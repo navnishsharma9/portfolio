@@ -2,26 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.tw-after{
+    @apply after:absolute after:inset-1/2 after:bg-[#0e166e64] after:p-10 after:rounded-full after:transform after:-translate-x-1/2
+    after:-translate-y-1/2 before:absolute before:inset-1/2 before:p-12 before:rounded-full before:bg-[#0e166e38] before:transform before:-translate-x-1/2 before:-translate-y-1/2 before:-z-20 after:-z-10;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}
