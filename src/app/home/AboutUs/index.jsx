@@ -15,7 +15,6 @@ function AboutUs() {
       <Typography as="h1">About Us</Typography>
       <div className=" py-10 flex flex-col lg:flex-row gap-6 text-justify">
         <div className={`space-y-6 flex-[2] lg:pr-7 lg:border-r ${raleway.className}`}> 
-
           <Typography as='h5'>{paragraphOne}</Typography>
           <Typography as='h5'>{paragraphTwo}</Typography>
           <Typography as='h5'>{paragraphThree}</Typography>

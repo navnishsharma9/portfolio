@@ -1,10 +1,8 @@
 import React from 'react'
 import { raleway } from "@/app/fonts/fonts";
-import dynamic from 'next/dynamic';
 import { data } from "@/appdata";
 import { Typography } from "@/components";
-
-const ServiceCard = dynamic(() => import('./ServiceCard'))
+import ServiceCard from './ServiceCard';
 
 function Services() {
   const { ourservices:{description, services}  } = data||{}

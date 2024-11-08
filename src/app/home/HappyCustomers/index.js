@@ -1,7 +1,7 @@
 import { raleway } from "@/app/fonts/fonts";
 import { data } from "@/appdata";
 import { Typography } from "@/components";
-import { StoriesCard } from "./StoriesCard";
+import StoriesCard from "./StoriesCard";
 
 export default function HappyCustomer() {
     const { succesStories:{description, storiesData} } = data||{}

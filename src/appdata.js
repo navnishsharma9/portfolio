@@ -190,6 +190,42 @@ export const data = {
                 'text':'Teams'
             }
         ]
+    }, 
+    "testimonials":{
+        "title":"What Our Clients Say About Us",
+        "description":"We believe the best measure of our success is the satisfaction of our clients. Our team is committed to delivering exceptional quality and value, tailored to the unique needs of each project. These testimonials reflect the trust and appreciation we've earned through our dedication. Here’s what our clients have to say about working with us:",
+        "testimonials":[
+            {
+                "thead":"An Absolute Pleasure to Work With!",
+                "desc":"Working with this team has been a fantastic experience. They were attentive to every detail, ensuring our vision came to life perfectly. Communication was clear, and they delivered on time, exceeding our expectations. Highly recommend them to anyone looking for dedicated professionals!",
+                "givenBy":"Sarah L., Marketing Manager"
+            },
+            {
+                "thead":"Exceeded Expectations on Every Front",
+                "desc":"This team went above and beyond to deliver a stunning product. Their creativity, attention to detail, and technical skills transformed our project into something we’re truly proud of. I look forward to partnering with them on future projects!",
+                "givenBy":"James P., Founder & CEO"
+            },
+            {
+                "thead":"Professional, Reliable, and Fast",
+                "desc":"We were on a tight deadline, but this team delivered without compromising quality. They worked around the clock to meet our needs, and the end result speaks for itself. Can't thank them enough for their dedication and professionalism.",
+                "givenBy":"Emily R., Product Manager"
+            },
+            {
+                "thead":"Impressive Communication and Results",
+                "desc":"From start to finish, the team was easy to communicate with, receptive to feedback, and proactive in providing updates. Their dedication to achieving the best outcome is evident, and they brought valuable ideas that improved our project. Absolutely recommend!",
+                "givenBy":"Michael T., Operations Director"
+            },
+            {
+                "thead":"Creative Minds with a Technical Edge",
+                "desc":"It's rare to find a team that combines creativity with technical expertise so seamlessly. Their design and development skills were impressive, and they tailored the solution perfectly to our needs. They’ve definitely earned a long-term client!",
+                "givenBy":"Lisa G., Creative Director"
+            },
+            {
+                "thead":"Made Our Vision a Reality",
+                "desc":"They took our vague concept and turned it into something truly remarkable. They were patient, adaptable, and always went the extra mile to ensure we were satisfied. The end result is beautiful, functional, and exactly what we wanted.",
+                "givenBy":"Rajesh K., Project Lead"
+            },
+        ]
     },
     "footer": {
         "userfull_links": [

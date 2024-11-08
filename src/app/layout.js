@@ -1,8 +1,7 @@
-import dynamic from "next/dynamic";
 import "./globals.css";
 import { Open_Sans } from 'next/font/google'
-const Header=dynamic(()=>import('./layout/Header')) 
-const Footer=dynamic(()=>import('./layout/Footer')) 
+import Header from "./layout/Header";
+import Footer from "./layout/Footer";
 
 const openSans = Open_Sans({
   subsets: ['latin'],

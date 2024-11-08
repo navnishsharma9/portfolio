@@ -7,3 +7,10 @@
     after:-translate-y-1/2 before:absolute before:inset-1/2 before:p-12 before:rounded-full before:bg-[#0e166e38] before:transform before:-translate-x-1/2 before:-translate-y-1/2 before:-z-20 after:-z-10;
 }
 
+@layer base {
+  :root {
+
+        --radius: 0.5rem
+    }
+}
+

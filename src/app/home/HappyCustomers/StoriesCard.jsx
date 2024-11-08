@@ -30,7 +30,7 @@ function StoriesCard({ stories=[] }) {
     )
 }
 
-export { StoriesCard }
+export default StoriesCard;
 
 const successStoriesObj = {
     BsFolderSymlink: <BsFolderSymlink className='w-14 h-14 fill-purple-900 mx-auto' />,

@@ -1,12 +1,16 @@
 'use client'
 
+import dynamic from 'next/dynamic'
 import React, { useState } from 'react'
 import Link from 'next/link'
 import Logo from '../../../components/Logo'
 import { RxHamburgerMenu } from "react-icons/rx";
 import { useRouter } from 'next/navigation';
-import Model from '@/components/Model/Model'
-function BottomBar({ menus }) {
+const Model = dynamic(()=>import('@/components/Model/Model'), {ssr:false})
+import { data } from "@/appdata";
+
+function BottomBar() {
+    const { menus } = data||{}
     const [open, setOpen] = useState(false);
     const {pathname} = useRouter();
 
